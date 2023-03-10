@@ -1,0 +1,93 @@
+.wedo {
+  padding-top: 100px;
+
+
+  &__detail {
+    padding-top: 105px;
+    padding-bottom: 130px;
+  }
+
+  .wedo__card {
+
+
+    & .card {
+
+      &-title {
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 36px;
+        color: #323232;
+      }
+
+      &-text {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        color: #8E8E8E;
+      }
+    }
+
+    @include maxWidth(992px) {
+      img {
+        margin: auto;
+      }
+
+      text-align: center;
+
+      &-title {
+        font-size: 22px;
+        line-height: 38px;
+      }
+
+      &-desc {
+        font-size: 14px;
+        line-height: 24px;
+      }
+    }
+  }
+
+  .wedo__statistical {
+
+    padding: 50px;
+    border: 1px solid #BFBFBF;
+    border-radius: 20px;
+
+    &-title {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 60px;
+      color: var(--black);
+    }
+
+    &-desc {
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 26px;
+      color: var(--gray);
+
+    }
+
+    @include maxWidth(576px) {
+      &-title {
+        font-size: 32px;
+        line-height: 44px;
+      }
+
+      &-desc {
+        font-size: 15px;
+        line-height: 24px;
+
+      }
+    }
+
+  }
+
+  @include maxWidth(576px) {
+    padding-top: 50px;
+
+    &__detail {
+      padding-top: 55px;
+      padding-bottom: 70px;
+    }
+  }
+}
