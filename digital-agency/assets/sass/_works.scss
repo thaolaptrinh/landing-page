@@ -1,7 +1,6 @@
 .works {
 
   padding-top: 130px;
-  padding-bottom: 150px;
 
 
   &__posts {
@@ -12,7 +11,8 @@
 
   @include maxWidth(576px){
     padding-top: 50px;
-    padding-bottom: 70px;
   
   }
+
+
 }
