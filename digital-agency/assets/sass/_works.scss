@@ -8,4 +8,11 @@
     padding-top: 50px;
 
   }
+
+
+  @include maxWidth(576px){
+    padding-top: 50px;
+    padding-bottom: 70px;
+  
+  }
 }
