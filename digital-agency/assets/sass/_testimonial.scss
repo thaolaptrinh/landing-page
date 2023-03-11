@@ -70,9 +70,13 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: #999;
+    background: var(--gray);
     text-shadow: none;
     top: 4px;
+
+    &:hover {
+      background: var(--green);
+    }
   }
 
   .carousel-control-prev i,
@@ -108,6 +112,6 @@
   }
 
   .carousel-indicators li.active {
-    background: #888;
+    background: var(--green);
   }
 }

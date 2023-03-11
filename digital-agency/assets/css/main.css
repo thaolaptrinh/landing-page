@@ -465,9 +465,13 @@ a {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: #999;
+  background: var(--gray);
   text-shadow: none;
   top: 4px;
+}
+.testimonial .carousel-control-prev:hover,
+.testimonial .carousel-control-next:hover {
+  background: var(--green);
 }
 .testimonial .carousel-control-prev i,
 .testimonial .carousel-control-next i {
@@ -496,7 +500,7 @@ a {
   border: none;
 }
 .testimonial .carousel-indicators li.active {
-  background: #888;
+  background: var(--green);
 }
 
 .footer {
