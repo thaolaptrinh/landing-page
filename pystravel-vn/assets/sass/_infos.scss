@@ -1,0 +1,24 @@
+.infos {
+
+  box-shadow: rgb(0, 0, 0, 15%) 0px 1px 4px 0px;
+
+  &__icon img {
+    width: 70px;
+    height: 70px;
+  }
+
+  &__title {
+    color: var(--blue);
+    font-size: 17px;
+
+    font-weight: 600;
+    text-transform: uppercase;
+
+  }
+
+  &__desc {
+    font-size: 14px;
+    color: var(--grey);
+    margin: 0;
+  }
+}

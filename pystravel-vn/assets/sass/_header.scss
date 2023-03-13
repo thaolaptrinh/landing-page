@@ -1,0 +1,63 @@
+.header {
+
+  &__left {
+
+    font-size: 13px;
+
+  }
+
+  &__right {
+    font-size: 12px;
+  }
+
+  &__bg {
+    position: relative;
+    width: 100%;
+    background-image: url('/images/background/background-112021.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 580px;
+  }
+
+
+  &__nav {
+    padding-top: 20px;
+    height: 80px;
+  }
+
+  &__menu {
+
+    a {
+      font-size: 16px;
+
+      &:hover {
+        border-bottom: 2px solid var(--orange);
+      }
+    }
+  }
+
+  &__logo {
+    width: 190px;
+  }
+
+  &__inner {
+    margin-top: 90px;
+  }
+
+  &__heading {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  &__desc {
+    text-align: center;
+    font-size: 17px;
+    width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+
+
+}
