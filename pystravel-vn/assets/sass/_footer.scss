@@ -1,15 +1,18 @@
 .footer {
 
 
-  // background-color: var(--primary);
-  // color: var(--white);
-  // padding-top: 60px;
-  // font-size: 14px;
+  background-color: var(--primary);
+  color: var(--white);
+  padding-top: 60px;
+  font-size: 14px;
+
+
+  
 
   &__bot {
     background-color: var(--blue);
     text-align: center;
-    // margin-top: 100px;
+    margin-top: 100px;
     height: 45px;
     line-height: 45px;
   }
