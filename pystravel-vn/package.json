@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "bootstrap": "^5.3.0-alpha1",
-    "jquery": "^3.6.4"
+    "jquery": "^3.6.4",
+    "owl.carousel2": "^2.2.2"
   },
   "scripts": {
     "build-sass": "sass assets/sass/main.scss assets/css/main.css --watch"

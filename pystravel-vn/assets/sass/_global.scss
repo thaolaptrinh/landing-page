@@ -76,10 +76,26 @@ body {
   transition: all 0.3s linear;
   border: none;
 
+
+
   &-primary {
     padding: 5px 10px;
     color: var(--white);
     background-color: var(--blue);
+  }
+
+  &-primary--outline {
+    padding: 5px 10px;
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 13px;
+    background-color: var(--white);
+    border: 1px solid var(--blue);
+
+    &:hover {
+      color: var(--white);
+      background-color: var(--blue);
+    }
   }
 
   &-watch {
@@ -99,6 +115,8 @@ body {
 }
 
 
+
+
 .form-input {
   display: block;
   width: 100%;
@@ -114,6 +132,51 @@ body {
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+
+
+.owl-carousel .item>img {
+  display: block;
+  background: #fff;
+  border-radius: 10px;
+  border: 1.5px solid #E2F0FF;
+  padding: 16px;
+  height: 80px;
+  text-align: center;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+
+.owl-nav {
+
+  & .owl-prev {
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  & [class*=owl-] {
+    background: transparent !important;
+    font-size: 28px !important;
+    color: var(--black) !important;
+  }
+
+  & .owl-next {
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+
+  @include maxWidth(576px) {
+    display: none !important;
+  }
+
+
+}
+
 
 a {
   text-decoration: none;
