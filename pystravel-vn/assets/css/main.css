@@ -30,13 +30,14 @@ body {
   --blue: #00759a;
   --white: #ffffff;
   --orange: #fd7e14;
+  --black: #212529;
 }
 
 body {
   font-size: 14px;
   background-color: var(--bg-body);
   font-family: var(--font);
-  color: var(--white);
+  color: var(--black);
 }
 
 .wrapper {
@@ -136,6 +137,9 @@ a {
   color: inherit !important;
 }
 
+.header {
+  color: var(--white);
+}
 .header__left {
   font-size: 13px;
 }
@@ -197,6 +201,105 @@ a {
   font-size: 14px;
   color: var(--grey);
   margin: 0;
+}
+
+.products .card {
+  box-shadow: 0px 1px 0px 0px rgba(183, 180, 180, 0.5);
+  background-color: white;
+  border-radius: 0;
+  border: none;
+}
+.products .card-img-top {
+  height: 215px;
+}
+.products .card-body {
+  padding: 15px 10px;
+}
+.products .card-title a {
+  color: var(--primary) !important;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  height: 40px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  transition: all 0.2s linear;
+}
+.products .card-title a:hover {
+  color: var(--orange) !important;
+}
+.products .card-text p {
+  font-size: 13px;
+  color: var(--black);
+  margin: 0;
+}
+.products__item-image {
+  position: relative;
+  width: 100%;
+  height: 215px;
+}
+.products__item-desc {
+  background: rgba(44, 42, 42, 0.7);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.products__item-desc span {
+  color: var(--white) !important;
+  padding: 5px 15px;
+  display: block;
+  color: #4e4e4e;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
+}
+.products__item-price {
+  font-size: 20px !important;
+  color: var(--orange) !important;
+  font-weight: bold;
+  text-align: right;
+}
+.products__item-price small {
+  font-size: 80%;
+  font-weight: 400;
+}
+.products__item-calendar {
+  overflow: hidden;
+  max-height: 40px;
+  white-space: nowrap;
+}
+
+.posts__popular .card-title {
+  font-size: 20px;
+  color: var(--primary);
+  font-weight: bold;
+}
+.posts__popular .card-text {
+  color: var(--black);
+  font-size: 13px;
+}
+.posts__list > .row {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.posts__list > .row > div {
+  padding: 0px 5px;
+}
+.posts__item .card-img-top {
+  border-radius: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.posts__item .card-body {
+  padding: 7px;
+}
+.posts__item .card-title {
+  font-size: 13px;
+  color: var(--black);
+}
+.posts__item .card-text {
+  font-size: 12px;
+  color: var(--grey);
 }
 
 .footer__bot {
