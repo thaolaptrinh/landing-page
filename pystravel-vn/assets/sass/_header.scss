@@ -13,7 +13,7 @@
   &__bg {
     position: relative;
     width: 100%;
-    background-image: url('/images/background/background-112021.jpg');
+    background-image: url('../../images/background/background-112021.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -28,8 +28,9 @@
 
   &__menu {
 
+
     a {
-      font-size: 16px;
+      font-size: 14px;
 
       &:hover {
         border-bottom: 2px solid var(--orange);
@@ -38,11 +39,11 @@
   }
 
   &__logo {
-    width: 190px;
+    width: 170px;
   }
 
   &__inner {
-    margin-top: 90px;
+    margin-top: 100px;
   }
 
   &__heading {
