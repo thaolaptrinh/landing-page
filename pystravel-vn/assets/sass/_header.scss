@@ -26,7 +26,26 @@
   &__nav {
     padding-top: 20px;
     height: 80px;
+
+
   }
+
+  &__nav.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 0px !important;
+    z-index: 1000;
+    background-color: var(--primary);
+    background-image: none;
+
+    height: auto;
+    padding: 10px;
+
+
+  }
+
 
   &__menu {
 
@@ -37,6 +56,8 @@
       &:hover {
         border-bottom: 2px solid var(--orange);
       }
+
+
     }
   }
 
@@ -84,6 +105,12 @@
       font-size: 13px;
       width: 100%;
     }
+  }
+
+
+  & .nav-link.active {
+    border-bottom: 1px solid var(--orange);
+
   }
 
 

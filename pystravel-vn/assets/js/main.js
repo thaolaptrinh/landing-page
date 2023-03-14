@@ -1,3 +1,16 @@
+const nav = document.querySelector(".header__nav");
+const section1 = document.querySelector(".infos");
+
+const initialCoords = section1.getBoundingClientRect();
+
+window.addEventListener("scroll", function (e) {
+  if (this.window.scrollY > initialCoords.top) {
+    nav.classList.add("sticky");
+  } else {
+    nav.classList.remove("sticky");
+  }
+});
+
 $(".partner .owl-carousel").owlCarousel({
   loop: true,
   margin: 10,

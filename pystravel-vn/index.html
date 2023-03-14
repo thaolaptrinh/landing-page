@@ -63,36 +63,40 @@
         </div>
       </div>
       <div class="header__bg">
-        <div class="container">
-          <nav class="header__nav">
-            <div class="row align-items-center">
-              <div class="col-12 col-lg-3">
-                <a href="#"><img src="./images/logo-2.png" alt="logo" class="header__logo mx-auto m-lg-0" /></a>
-              </div>
-              <div class="col-12 col-lg-9">
-                <nav class="header__menu mx-auto">
-                  <ul class="nav float-md-end align-items-center">
-                    <li class="nav-item">
-                      <a href="#" class="nav-link">Tour Trong Nước</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#" class="nav-link"> Tour Trong Nước</a>
-                    </li>
-
-                    <li class="nav-item">
-                      <a href="#" class="nav-link">Tour Nước Ngoài</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#" class="nav-link">Combo Du Lịch</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#" class="nav-link">Lịch Khởi Hành</a>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
+        <nav class="header__nav" >
+         <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12 col-lg-3">
+              <a href="#"><img src="./images/logo-2.png" alt="logo" class="header__logo mx-auto m-lg-0" /></a>
             </div>
-          </nav>
+            <div class="col-12 col-lg-9">
+              <nav class="header__menu mx-auto" id="navbar">
+                <ul class="nav float-md-end align-items-center">
+                  <li class="nav-item">
+                    <a href="#tourInCountry" class="nav-link">Tour Trong Nước</a>
+                  </li>
+                
+
+                  <li class="nav-item">
+                    <a href="#tourOutCountry" class="nav-link">Tour Nước Ngoài</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Team Building</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Combo Du Lịch</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Lịch Khởi Hành</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+         </div>
+        </nav>
+        <div class="container">
           <div class="header__inner text-center">
             <div class="header__content">
               <h1 class="header__heading">
@@ -183,152 +187,153 @@
       </div>
     </div>
 
-    <!-- ========== Start Products 1 ========== -->
-
-    <section class="products section bg-gray">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 mb-3">
-            <h3 class="section__title">
-              <a href="#">
-                Tour Hot Trong Nước
-                <button class="button button-watch float-end">
-                  xem thêm tour
-                  <i class="fa fa-caret-right" aria-hidden="true"></i>
-                </button>
-              </a>
-            </h3>
-            <div class="ruler"></div>
+    
+    <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+      <!-- ========== Start Products 1 ========== -->
+      <section class="products section bg-gray" id="tourInCountry">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 mb-3">
+              <h3 class="section__title">
+                <a href="#">
+                  Tour Hot Trong Nước
+                  <button class="button button-watch float-end">
+                    xem thêm tour
+                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                  </button>
+                </a>
+              </h3>
+              <div class="ruler"></div>
+            </div>
           </div>
+  
+          <div class="row products__list">
+            <div class="col-md-4 col-xs-12">
+              <div class="products__item">
+                <div class="card">
+                  <div class="products__item-image">
+                    <a href="#">
+                      <img class="card-img-top" src="./upload/1.jpg" alt="Title" />
+                    </a>
+                    <div class="products__item-desc">
+                      <span>Từ Hà Nội</span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      <a href="#">Tour Hà Nội - Bắc Hà - Tả Van Chư 2 ngày 1 đêm mùa hoa mận, hoa lê</a>
+                    </h4>
+                    <div class="card-text">
+                      <div class="row">
+                        <div class="col-md-5">
+                          <div class="products__item-calendar">
+  
+                            <i class="fa fa-calendar me-1" aria-hidden="true"></i>18,25/3
+                          </div>
+                          <p>
+                            <i class="fa fa-clock-o me-1" aria-hidden="true"></i>
+                            2 ngày 1 đêm
+                          </p>
+                        </div>
+                        <div class="col-md-7 align-self-end"">
+                          <p class=" products__item-price float-end">
+                          1.880.000 <small>₫/khách</small>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+              <div class="products__item">
+                <div class="card">
+                  <div class="products__item-image">
+                    <a href="#">
+                      <img class="card-img-top" src="./upload/2.jpg" alt="Title" />
+                    </a>
+                    <div class="products__item-desc">
+                      <span>Từ Hà Nội</span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      <a href="#">Tour Hà Giang - Sông Nho Quế hùng vĩ 3 ngày 2 đêm từ Hà Nội</a>
+                    </h4>
+                    <div class="card-text">
+                      <div class="row">
+                        <div class="col-md-5">
+                          <div class="products__item-calendar">
+  
+                            <i class="fa fa-calendar me-1" aria-hidden="true"></i>17,24,31/3; 29,30
+  
+                          </div>
+                          <p>
+                            <i class="fa fa-clock-o me-1" aria-hidden="true"></i>
+                            3 ngày 2 đêm
+                          </p>
+                        </div>
+                        <div class="col-md-7 align-self-end"">
+                          <p class=" products__item-price float-end">
+                          2.680.000 <small>₫/khách</small>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+              <div class="products__item">
+                <div class="card">
+                  <div class="products__item-image">
+                    <a href="#">
+                      <img class="card-img-top" src="./upload/3.jpg" alt="Title" />
+                    </a>
+                    <div class="products__item-desc">
+                      <span>Từ Hà Nội</span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      <a href="#">Tour du lịch đảo Cô Tô 3 ngày 2 đêm từ Hà Nội</a>
+                    </h4>
+                    <div class="card-text">
+                      <div class="row">
+                        <div class="col-md-5">
+                          <div class="products__item-calendar">
+                            <i class="fa fa-calendar me-1" aria-hidden="true"></i>29,30/04; 01/05
+                          </div>
+  
+                          <p>
+                            <i class="fa fa-clock-o me-1" aria-hidden="true"></i>
+                            3 ngày 2 đêm
+                          </p>
+                        </div>
+                        <div class="col-md-7 align-self-end"">
+                          <p class=" products__item-price float-end">
+                          3.180.000 <small>₫/khách</small>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+  
         </div>
-
-        <div class="row products__list">
-          <div class="col-md-4 col-xs-12">
-            <div class="products__item">
-              <div class="card">
-                <div class="products__item-image">
-                  <a href="#">
-                    <img class="card-img-top" src="./upload/1.jpg" alt="Title" />
-                  </a>
-                  <div class="products__item-desc">
-                    <span>Từ Hà Nội</span>
-                  </div>
-                </div>
-                <div class="card-body">
-                  <h4 class="card-title">
-                    <a href="#">Tour Hà Nội - Bắc Hà - Tả Van Chư 2 ngày 1 đêm mùa hoa mận, hoa lê</a>
-                  </h4>
-                  <div class="card-text">
-                    <div class="row">
-                      <div class="col-md-5">
-                        <div class="products__item-calendar">
-
-                          <i class="fa fa-calendar me-1" aria-hidden="true"></i>18,25/3
-                        </div>
-                        <p>
-                          <i class="fa fa-clock-o me-1" aria-hidden="true"></i>
-                          2 ngày 1 đêm
-                        </p>
-                      </div>
-                      <div class="col-md-7 align-self-end"">
-                        <p class=" products__item-price float-end">
-                        1.880.000 <small>₫/khách</small>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-xs-12">
-            <div class="products__item">
-              <div class="card">
-                <div class="products__item-image">
-                  <a href="#">
-                    <img class="card-img-top" src="./upload/2.jpg" alt="Title" />
-                  </a>
-                  <div class="products__item-desc">
-                    <span>Từ Hà Nội</span>
-                  </div>
-                </div>
-                <div class="card-body">
-                  <h4 class="card-title">
-                    <a href="#">Tour Hà Giang - Sông Nho Quế hùng vĩ 3 ngày 2 đêm từ Hà Nội</a>
-                  </h4>
-                  <div class="card-text">
-                    <div class="row">
-                      <div class="col-md-5">
-                        <div class="products__item-calendar">
-
-                          <i class="fa fa-calendar me-1" aria-hidden="true"></i>17,24,31/3; 29,30
-
-                        </div>
-                        <p>
-                          <i class="fa fa-clock-o me-1" aria-hidden="true"></i>
-                          3 ngày 2 đêm
-                        </p>
-                      </div>
-                      <div class="col-md-7 align-self-end"">
-                        <p class=" products__item-price float-end">
-                        2.680.000 <small>₫/khách</small>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-xs-12">
-            <div class="products__item">
-              <div class="card">
-                <div class="products__item-image">
-                  <a href="#">
-                    <img class="card-img-top" src="./upload/3.jpg" alt="Title" />
-                  </a>
-                  <div class="products__item-desc">
-                    <span>Từ Hà Nội</span>
-                  </div>
-                </div>
-                <div class="card-body">
-                  <h4 class="card-title">
-                    <a href="#">Tour du lịch đảo Cô Tô 3 ngày 2 đêm từ Hà Nội</a>
-                  </h4>
-                  <div class="card-text">
-                    <div class="row">
-                      <div class="col-md-5">
-                        <div class="products__item-calendar">
-                          <i class="fa fa-calendar me-1" aria-hidden="true"></i>29,30/04; 01/05
-                        </div>
-
-                        <p>
-                          <i class="fa fa-clock-o me-1" aria-hidden="true"></i>
-                          3 ngày 2 đêm
-                        </p>
-                      </div>
-                      <div class="col-md-7 align-self-end"">
-                        <p class=" products__item-price float-end">
-                        3.180.000 <small>₫/khách</small>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-    </section>
-
-    <!-- ========== End Products 1 ========== -->
-
+      </section>
+      <!-- ========== End Products 1 ========== -->
+   
+   
     <!-- ========== Start Products 2 ========== -->
 
-    <section class="products section bg-white">
+    <section class="products section bg-white" id="tourOutCountry">
       <div class="container">
         <div class="row">
           <div class="col-md-12 mb-3">
@@ -468,6 +473,11 @@
     </section>
 
     <!-- ========== End Products 2 ========== -->
+    </div>
+
+    
+
+
 
 
     <!-- ========== Start POSTS ========== -->
