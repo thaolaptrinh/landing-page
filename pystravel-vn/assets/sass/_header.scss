@@ -45,7 +45,7 @@
   }
 
   &__inner {
-    margin-top: 100px;
+    padding-top: 100px;
   }
 
   &__heading {
@@ -60,6 +60,30 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
+  }
+
+  @include maxWidth(767.98px) {
+
+    &>.bg-primary:first-child {
+      display: none;
+    }
+
+    &__nav {
+      display: none;
+    }
+
+
+
+
+    &__heading {
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
+
+    &__desc {
+      font-size: 13px;
+      width: 100%;
+    }
   }
 
 
