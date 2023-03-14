@@ -134,7 +134,7 @@ body {
 }
 
 
-.owl-carousel .item>img {
+.partner .owl-carousel .item>img {
   display: block;
   background: #fff;
   border-radius: 10px;
@@ -147,7 +147,7 @@ body {
 }
 
 
-.owl-nav {
+.partner .owl-nav {
 
   & .owl-prev {
     position: absolute;
@@ -165,6 +165,38 @@ body {
   & .owl-next {
     position: absolute;
     right: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+
+  @include maxWidth(576px) {
+    display: none !important;
+  }
+
+
+}
+
+
+
+.slider .owl-nav {
+
+  & .owl-prev {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  & [class*=owl-] {
+    background: transparent !important;
+    font-size: 28px !important;
+    color: var(--gray) !important;
+  }
+
+  & .owl-next {
+    position: absolute;
+    right: 0;
     top: 50%;
     transform: translateY(-50%);
   }
