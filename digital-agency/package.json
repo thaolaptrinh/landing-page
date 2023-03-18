@@ -4,6 +4,6 @@
     "jquery": "^3.6.4"
   },
   "scripts": {
-    "build-sass": "sass assets/sass/main.scss assets/css/main.css --watch"
+    "build.sass": "sass assets/sass/main.scss assets/css/main.css --watch"
   }
 }
