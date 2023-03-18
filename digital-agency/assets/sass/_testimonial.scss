@@ -12,7 +12,7 @@
   }
 
   .carousel {
-    width: 650px;
+    max-width: 650px;
     margin: 0 auto;
     padding-bottom: 50px;
   }
@@ -23,6 +23,7 @@
     text-align: center;
     overflow: hidden;
     min-height: 340px;
+
   }
 
   .carousel .carousel-item a {
